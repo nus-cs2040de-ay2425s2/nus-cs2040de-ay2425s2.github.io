@@ -1,0 +1,14 @@
+/*
+  Content-Type: text/html; charset=utf-8
+
+/*.js
+  Content-Type: application/javascript
+
+/*.mjs
+  Content-Type: application/javascript
+
+/*.css
+  Content-Type: text/css
+
+/*.module.js
+  Content-Type: application/javascript 
