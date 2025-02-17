@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+@layer base {
+  html, body, #root {
+    @apply h-screen w-screen font-['PT_Sans'] antialiased;
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+  }
+}
+
+/* Component styles */
+@layer components {
+  /* Simple scale hover effect */
+  .scale-hover {
+    @apply relative transition-transform duration-300 ease-out cursor-pointer;
+  }
+
+  .scale-hover:hover {
+    @apply transform scale-[1.02];
+  }
+
+  /* Navigation components */
+  .nav-section {
+    @apply relative overflow-hidden transition-all duration-300;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+  }
+
+  .nav-section::before {
+    @apply content-[''] absolute inset-0 opacity-0 transition-opacity duration-300;
+    background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.05), transparent);
+  }
+
+  .nav-section:hover::before {
+    @apply opacity-100;
+  }
+
+  .nav-link {
+    @apply relative flex items-center px-2 py-1.5 rounded-l-md overflow-hidden
+           transition-all duration-300 ease-out hover:-translate-x-1;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+  }
+
+  .nav-link::before {
+    @apply content-[''] absolute left-0 w-0.5 h-0 bg-white/30 
+           transition-all duration-300 rounded-l;
+  }
+
+  .nav-link:hover::before {
+    @apply h-full;
+  }
+
+  .nav-link::after {
+    @apply content-[''] absolute inset-0 opacity-0 transition-opacity duration-300 rounded-l-md;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.05) 0%, transparent 100%);
+  }
+
+  .nav-link:hover::after {
+    @apply opacity-100;
+  }
+
+  /* Text effects */
+  .text-glow {
+    @apply transition-all duration-300 opacity-70 hover:opacity-100;
+  }
+
+  /* Section headers */
+  .section-header {
+    @apply text-white/70 font-semibold text-sm uppercase tracking-wider mb-1;
+  }
+}
