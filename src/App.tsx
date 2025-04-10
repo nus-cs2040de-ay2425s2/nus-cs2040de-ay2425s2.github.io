@@ -57,6 +57,21 @@ const App: React.FC = () => {
               <a href="https://nus-cs2040de-ay2425s2.github.io/lab4/" className="nav-link" target="_blank" rel="noopener noreferrer">
                 Lab 4
               </a>
+              <a href="https://nus-cs2040de-ay2425s2.github.io/lab5/" className="nav-link" target="_blank" rel="noopener noreferrer">
+                Lab 5
+              </a>
+              <a href="https://nus-cs2040de-ay2425s2.github.io/lab6/" className="nav-link" target="_blank" rel="noopener noreferrer">
+                Lab 6
+              </a>
+              <a href="https://nus-cs2040de-ay2425s2.github.io/lab7/" className="nav-link" target="_blank" rel="noopener noreferrer">
+                Lab 7
+              </a>
+              <a href="https://nus-cs2040de-ay2425s2.github.io/lab8/" className="nav-link" target="_blank" rel="noopener noreferrer">
+                Lab 8
+              </a>
+              <a href="https://nus-cs2040de-ay2425s2.github.io/lab9/" className="nav-link" target="_blank" rel="noopener noreferrer">
+                Lab 9
+              </a>
             </div>
           </div>
 
@@ -240,10 +255,6 @@ const App: React.FC = () => {
                     </td>
                     <td className="py-3 px-4">6. Graphs</td>
                     <td className="py-3 px-4">6. BFS in Java</td>
-                    <td className="py-3 px-4">
-                      Online Quiz 4
-                      <div className="text-sm text-black/60">(By 17-Mar, 16:00)</div>
-                    </td>
                   </tr>
                   <tr className="border-b border-black/10">
                     <td className="py-3 px-4">10</td>
@@ -258,8 +269,8 @@ const App: React.FC = () => {
                     <td className="py-3 px-4">7. BFS and DFS</td>
                     <td className="py-3 px-4">7. DFS in Java</td>
                     <td className="py-3 px-4">
-                      Submission of Individual assignment
-                      <div className="text-sm text-black/60">(By 24-Mar, 16:00)</div>
+                      Online Quiz 4
+                      <div className="text-sm text-black/60">(By 17-Mar, 16:00)</div>
                     </td>
                   </tr>
                   <tr className="border-b border-black/10">
@@ -274,8 +285,8 @@ const App: React.FC = () => {
                     <td className="py-3 px-4">8. Single source shortest path</td>
                     <td className="py-3 px-4">8. Single source shortest path in Java</td>
                     <td className="py-3 px-4">
-                      Online Quiz 5
-                      <div className="text-sm text-black/60">(By 31-Mar, 16:00)</div>
+                      Submission of Individual assignment
+                      <div className="text-sm text-black/60">(By 24-Mar, 16:00)</div>
                     </td>
                   </tr>
                   <tr className="border-b border-black/10">
@@ -290,7 +301,10 @@ const App: React.FC = () => {
                     </td>
                     <td className="py-3 px-4">9. Minimum spanning tree</td>
                     <td className="py-3 px-4">9. Minimum spanning tree in Java</td>
-                    <td className="py-3 px-4"></td>
+                    <td className="py-3 px-4">
+                      Online Quiz 5
+                      <div className="text-sm text-black/60">(By 31-Mar, 16:00)</div>
+                    </td>
                   </tr>
                   <tr className="border-b border-black/10">
                     <td className="py-3 px-4">13</td>
