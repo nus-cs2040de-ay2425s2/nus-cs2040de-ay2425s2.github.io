@@ -270,7 +270,7 @@ const App: React.FC = () => {
                     <td className="py-3 px-4">7. DFS in Java</td>
                     <td className="py-3 px-4">
                       Online Quiz 4
-                      <div className="text-sm text-black/60">(By 17-Mar, 16:00)</div>
+                      <div className="text-sm text-black/60">(By 24-Mar, 16:00)</div>
                     </td>
                   </tr>
                   <tr className="border-b border-black/10">
@@ -286,7 +286,7 @@ const App: React.FC = () => {
                     <td className="py-3 px-4">8. Single source shortest path in Java</td>
                     <td className="py-3 px-4">
                       Submission of Individual assignment
-                      <div className="text-sm text-black/60">(By 24-Mar, 16:00)</div>
+                      <div className="text-sm text-black/60">(By 31-Mar, 16:00)</div>
                     </td>
                   </tr>
                   <tr className="border-b border-black/10">
@@ -303,7 +303,7 @@ const App: React.FC = () => {
                     <td className="py-3 px-4">9. Minimum spanning tree in Java</td>
                     <td className="py-3 px-4">
                       Online Quiz 5
-                      <div className="text-sm text-black/60">(By 31-Mar, 16:00)</div>
+                      <div className="text-sm text-black/60">(By 07-Apr, 16:00)</div>
                     </td>
                   </tr>
                   <tr className="border-b border-black/10">
